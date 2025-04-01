@@ -1,0 +1,33 @@
+:root {
+    --color-black: #000;
+    --color-white: #fff;
+    --color-purple: #7A02D9;
+    --color-purple-hover: #BF6BE0;
+    --color-gray: #404040;
+    --max-width: 1280px;
+  }
+  
+  li{
+    list-style: none;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    font-smooth: always;
+    background-color: var(--color-black);
+  }
+
+  button {
+    background: transparent;
+    border: transparent;
+  }
+
+  a {
+    text-decoration: none;
+    color: var(--color-white);
+  }

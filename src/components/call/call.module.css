@@ -1,0 +1,47 @@
+.Call{
+    padding: 60px 12px 60px 12px;
+}
+
+.callWrapper{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 auto;
+    max-width: var(--max-width);
+}
+
+.callContent{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.callContent p{
+    color: var(--color-white);
+    font-size: 36px;
+    font-weight: 400;
+    max-width: 45ch;
+}
+
+.btnCall{
+    display: flex;
+}
+
+.callImg img{
+    width: 100%;
+}
+
+@media(max-width:600px) {
+    .callWrapper{
+        flex-direction: column;
+        padding: 1rem;
+    }
+    .callContent{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .btnCall{
+        display: flex;
+        justify-content: center;
+    }
+}
+

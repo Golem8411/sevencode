@@ -1,0 +1,18 @@
+.WrapperButton{
+    color: var(--color-white);
+    background-color: var(--color-purple);
+    padding: 16px 33px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align: center;
+    transition: ease-in-out 0.2s;
+    display: flex;
+    align-items: center;
+}
+
+.WrapperButton:hover{
+    background-color: var(--color-purple-hover);
+    color: var(--color-black);
+    cursor: pointer;
+}
