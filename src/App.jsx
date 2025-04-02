@@ -3,6 +3,7 @@ import Header from './components/header/header'
 import Hero from './components/hero/hero'
 import Call from './components/call/call'
 import Devreg from './components/devreg/devreg'
+import Footer from './components/footer/footer'
 
 function App() {
 
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Call />
       <Devreg />
+      <Footer />
     </>
   )
 }

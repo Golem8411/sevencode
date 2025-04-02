@@ -41,10 +41,10 @@ const Header = () => {
             <li className={styles.navLi}>
               <a href="">Documentação</a>
             </li>
-            <li className={styles.navLi}>
+            <li className={styles.navLiLogin}>
               <ButtonLi>Login</ButtonLi>
             </li>
-            <li className={styles.navLi}>
+            <li className={styles.navLiReg}>
               <Button>Registrar</Button>
             </li>
           </ul>
